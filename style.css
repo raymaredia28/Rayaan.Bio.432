@@ -1,6 +1,233 @@
-.profile-pic{
-    width: 500px;
+/* Typography - Using accessible fonts */
+body {
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+strong {
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Navbar */
+nav {
+    background-color: #333333;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    background-color: #555555;
+}
+
+nav a:focus {
+    outline: 3px solid #ffffff;
+    background-color: #555555;
+}
+
+/* Layout */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header p {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section {
+    padding: 40px 60px;
+    margin: 0;
+}
+
+/* Alternating section backgrounds */
+section:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #333333;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Images */
+img {
+    max-width: 400px;
+    width: 100%;
     height: auto;
-    border-radius: 10px;
-    
+    display: block;
+    margin: 30px auto;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #004499;
+}
+
+a:focus {
+    outline: 3px solid #0066cc;
+    background-color: #e6f2ff;
+}
+
+/* Lists - Experience section */
+ul {
+    list-style-position: inside;
+    text-align: left;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Links section - side by side */
+section:nth-of-type(4) ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+section:nth-of-type(4) li {
+    margin: 0;
+}
+
+/* Forms */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    font-weight: 600;
+    color: #333333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0066cc;
+    background-color: #f0f8ff;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    resize: vertical;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #0066cc;
+    background-color: #f0f8ff;
+}
+
+button {
+    padding: 12px 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: #0066cc;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004499;
+}
+
+button:focus {
+    outline: 3px solid #0066cc;
+}
+
+button[type="reset"] {
+    background-color: #666666;
+}
+
+button[type="reset"]:hover {
+    background-color: #444444;
 }
