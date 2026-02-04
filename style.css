@@ -1,4 +1,4 @@
-/* Typography - Using accessible fonts */
+
 body {
     font-family: 'Verdana', 'Geneva', sans-serif;
     font-size: 18px;
@@ -41,7 +41,7 @@ em {
     font-style: italic;
 }
 
-/* Navbar */
+
 nav {
     background-color: #333333;
     padding: 15px 0;
@@ -68,7 +68,7 @@ nav a:focus {
     background-color: #555555;
 }
 
-/* Layout */
+
 header {
     background-color: #ffffff;
     color: #000000;
@@ -91,7 +91,7 @@ section {
     margin: 0;
 }
 
-/* Alternating section backgrounds */
+
 section:nth-child(odd) {
     background-color: #ffffff;
 }
@@ -112,7 +112,6 @@ footer p {
     margin: 0;
 }
 
-/* Images */
 img {
     max-width: 400px;
     width: 100%;
@@ -121,7 +120,6 @@ img {
     margin: 30px auto;
 }
 
-/* Links */
 a {
     color: #0066cc;
     text-decoration: underline;
@@ -137,7 +135,7 @@ a:focus {
     background-color: #e6f2ff;
 }
 
-/* Lists - Experience section */
+
 ul {
     list-style-position: inside;
     text-align: left;
@@ -149,7 +147,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Links section - side by side */
 section:nth-of-type(4) ul {
     list-style-type: none;
     display: flex;
@@ -163,7 +160,7 @@ section:nth-of-type(4) li {
     margin: 0;
 }
 
-/* Forms */
+
 form {
     max-width: 500px;
     margin: 0 auto;
